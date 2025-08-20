@@ -1,0 +1,26 @@
+ - npm init -y // faz a aplicação ser inicia com npm node
+
+ - npm i express // framework de backend
+
+ - npm i mongoose // urm(framework de banco de dados)
+
+ - npm i cors // para evitar problemas de requisição no mesmo dominio
+
+ - npm i -D nodemon // para o servidor reiniciar a cada alteração no código, -D faz com que seja um dependência de desenvolvimento
+
+ - pasta ~/backend/controllers: onde fica as funções que vão chamar os arquivos que lidam diretamente com o banco de dados para fazer as operações
+
+ - pasta ~/backend/models: entidade que tem contato com o banco de dados, onde irei descrever o modelo da aplicação com mongoose
+
+ - pasta ~/backend/bd: onde a conexão do banco de dados vai ser tratada
+
+ - pasta ~/backend/routes: usado para centralizar as rotas.
+
+ - ~/backend/package.json
+ "scripts": {
+    "start": "nodemon app.js"
+ },
+ 
+ - o nodemon monitora o app.js
+
+ - npm start // usado para iniciar o express
