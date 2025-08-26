@@ -1,0 +1,3 @@
+npm i axios
+npm i react-router-dom // mudança de páginas
+npm i react-toastify // pacote simples que é usado para exibir notificações do tipo "toast"
