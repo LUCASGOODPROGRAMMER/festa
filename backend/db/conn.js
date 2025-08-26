@@ -5,9 +5,9 @@ async function main() {
     mongoose.set("strictQuery", true); // usado para evitar processos inexistentes, como uma consulta em um campo que não existe
 
     await mongoose.connect(
-      "mongodb+srv://lucashubner2019:mOhrT0R4C3otmXJO@cluster0.oxpy0lu.mongodb.net/"
+      "mongodb+srv://lucas:OSuDjKKY99HCxlsc@cluster0.gp6mnwi.mongodb.net/"
     );
-
+    // OSuDjKKY99HCxlsc
     console.log("estou conectado ao banco");
   } catch (error) {
     console.log(error);

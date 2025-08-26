@@ -1,0 +1,30 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name" : "buceta",
+    "description" : "rosinha",
+    "price" : 1400,
+    "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+    
+}
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/68ada9f01d41c9e74c053232
+
+###
+DELETE http://localhost:3000/api/services/68ada065550d5b9f7e6adb6f
+
+###
+PUT http://localhost:3000/api/services/68ada9f01d41c9e74c053232
+Content-Type: application/json
+
+{
+    "name": "bucetinha",
+    "description": "toda molhadinha",
+    "price": 100,
+    "image": "sem imagem"
+}

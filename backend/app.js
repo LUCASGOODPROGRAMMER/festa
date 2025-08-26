@@ -12,12 +12,12 @@ const conn = require("./db/conn");
 conn();
 
 // Routes
-const routes = require("./routes/router")
+const routes = require("./routes/router") 
 
-app.use("/api", routes)
+app.use("/api", routes) // todas rotas /api vem de routes
 
 // listen é um método responsável por iniciar o servidor express
 // o listen diz para o node.js escutar requisições http em uma porta específica
 app.listen(3000, function () {
   console.log("O Servidor está online ^-^");
-});
+}); // porta 3000
