@@ -2,11 +2,10 @@ POST http://localhost:3000/api/services
 Content-Type: application/json
 
 {
-    "name" : "buceta",
-    "description" : "rosinha",
+    "name" : "pano",
+    "description" : "preto",
     "price" : 1400,
     "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
-    
 }
 
 ###
@@ -23,8 +22,81 @@ PUT http://localhost:3000/api/services/68ada9f01d41c9e74c053232
 Content-Type: application/json
 
 {
-    "name": "bucetinha",
-    "description": "toda molhadinha",
+    "name": "home",
+    "description": "agente",
     "price": 100,
     "image": "sem imagem"
+}
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "Meu evento 2",
+    "author": "lucas",
+    "description": "aniversário",
+    "budget": 5000,
+    "image": "https://google.com",
+    "services": [
+        {
+            "name" : "service 1",
+            "description" : "rosinha",
+            "price" : 1400,
+            "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+        },
+        {
+            "name" : "service 2",
+            "description" : "rosinha",
+            "price" : 200,
+            "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+        },
+        {
+            "name" : "service 3",
+            "description" : "rosinha",
+            "price" : 3000,
+            "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+        }
+    ]
+}
+
+###
+GET http://localhost:3000/api/parties
+
+###
+GET http://localhost:3000/api/parties/68adc12a8c1b8638106d809c
+
+###
+DELETE http://localhost:3000/api/parties/68adc12a8c1b8638106d809c
+
+###
+PUT http://localhost:3000/api/parties/68adc48796b000a96417d191
+Content-Type: application/json
+
+{
+    "title": "Meu evento 1",
+    "author": "keynner",
+    "description": "festa",
+    "budget": 10000,
+    "image": "https://google.com",
+    "services": [
+        {
+            "name" : "service 1",
+            "description" : "b",
+            "price" : 2000,
+            "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+        },
+        {
+            "name" : "service 2",
+            "description" : "t",
+            "price" : 200,
+            "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+        },
+        {
+            "name" : "service 3",
+            "description" : "f",
+            "price" : 5000,
+            "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+        }
+    ]
 }
