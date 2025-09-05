@@ -2,10 +2,10 @@ POST http://localhost:3000/api/services
 Content-Type: application/json
 
 {
-    "name" : "pano",
-    "description" : "preto",
-    "price" : 1400,
-    "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+    "name" : "veonx",
+    "description" : "sem informações",
+    "price" : 20000,
+    "image" : "https://i.pinimg.com/1200x/45/74/22/4574220bdb8ec123f1443478b98b733c.jpg"
 }
 
 ###
@@ -15,7 +15,7 @@ GET http://localhost:3000/api/services
 GET http://localhost:3000/api/services/68ada9f01d41c9e74c053232
 
 ###
-DELETE http://localhost:3000/api/services/68ada065550d5b9f7e6adb6f
+DELETE http://localhost:3000/api/services/68ada9f01d41c9e74c053232
 
 ###
 PUT http://localhost:3000/api/services/68ada9f01d41c9e74c053232
@@ -33,29 +33,29 @@ POST http://localhost:3000/api/parties
 Content-Type: application/json
 
 {
-    "title": "Meu evento 2",
-    "author": "lucas",
-    "description": "aniversário",
+    "title": "zzz",
+    "author": "zzz",
+    "description": "zzz",
     "budget": 5000,
-    "image": "https://google.com",
+    "image": "https://images5.alphacoders.com/138/1380956.jpg",
     "services": [
         {
             "name" : "service 1",
             "description" : "rosinha",
             "price" : 1400,
-            "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+            "image" : "https://hentaidad.com/content/images/2025/2/qingyi-sex-zenless-zone-zero-6.webp"
         },
         {
             "name" : "service 2",
             "description" : "rosinha",
             "price" : 200,
-            "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+            "image" : "https://hentaidad.com/content/images/2025/2/astra-yao-sex-zenless-zone-zero-3.webp"
         },
         {
             "name" : "service 3",
             "description" : "rosinha",
             "price" : 3000,
-            "image" : "https://br.freepik.com/fotos-vetores-gratis/png"
+            "image" : "https://hentaidad.com/content/images/2025/4/evelyn-chevalier-sex-zenless-zone-zero-124.webp"
         }
     ]
 }
@@ -67,7 +67,7 @@ GET http://localhost:3000/api/parties
 GET http://localhost:3000/api/parties/68adc12a8c1b8638106d809c
 
 ###
-DELETE http://localhost:3000/api/parties/68adc12a8c1b8638106d809c
+DELETE http://localhost:3000/api/parties/
 
 ###
 PUT http://localhost:3000/api/parties/68adc48796b000a96417d191
@@ -78,7 +78,7 @@ Content-Type: application/json
     "author": "keynner",
     "description": "festa",
     "budget": 10000,
-    "image": "https://google.com",
+    "image": "",
     "services": [
         {
             "name" : "service 1",

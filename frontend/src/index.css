@@ -8,6 +8,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background: linear-gradient(135deg, #2b2d42, #3a0ca3); /* azul + roxo */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* opcional para não "quebrar" ao rolar */
+  background-size: cover;
+}
 
 li {
   list-style: none;

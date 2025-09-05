@@ -9,7 +9,7 @@ const NavBar = () => {
     <nav id="navbar-container">
       <div id="navbar-logo">
         <img src={PartyPng} alt="" />
-        <h1>Party Time</h1>
+        <h1>my waifus</h1>
       </div>
       <ul>
         <li>

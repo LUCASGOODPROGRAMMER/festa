@@ -1,0 +1,117 @@
+/* Container principal */
+.party-container {
+  background: rgba(255, 255, 255, 0.05);
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.party-container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.party-container p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin: 0.5rem 0 1rem;
+}
+
+.party-container h3 {
+  margin-top: 2rem;
+  color: #ccc;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.party-container img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+/* Configurações: botões */
+.config-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+/* botão editar */
+.btn-edit {
+  background: #2196f3;
+  color: #fff;
+  border: none;
+}
+
+.btn-edit:hover {
+  background: #1976d2;
+}
+
+/* botão deletar */
+.btn-delete {
+  background: #f44336;
+  color: #fff;
+  border: none;
+}
+
+.btn-delete:hover {
+  background: #d32f2f;
+}
+
+/* Lista de serviços */
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.my-services {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.my-services:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.my-services img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 0.8rem;
+}
+
+.my-services p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #7cbcdc;
+}

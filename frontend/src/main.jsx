@@ -6,6 +6,8 @@ import { createBrowserRouter, Route, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import Home from "./routes/Home.jsx";
 import CreateParty from "./routes/CreateParty.jsx";
+import Party from "./routes/Party.jsx";
+import EditParty from "./routes/EditParty.jsx";
 
 // Styles
 import "./index.css";
@@ -16,8 +18,10 @@ const router = createBrowserRouter(
       path: "/",
       element: <App />,
       children: [
-        { index: "/", element: <Home /> },
+        { index: true, element: <Home /> },
         { path: "/party/new", element: <CreateParty /> },
+        { path: "/party/:id", element: <Party /> },
+        { path: "/party/edit/:id", element: <EditParty /> },
       ],
     },
   ],

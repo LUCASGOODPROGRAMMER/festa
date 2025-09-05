@@ -76,3 +76,7 @@
 .btn.active::before {
   left: 0;
 }
+
+.btn::after{
+    display: none;
+}
